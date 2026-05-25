@@ -26,6 +26,7 @@ Go deep on open Magic: The Gathering APIs, products, game engines, datasets, LLM
 - `CodexCliAgent` now calls local `codex exec` with `schemas/codex_action.schema.json`.
 - Real Codex episodes passed: 1 step, 16 steps, and 8 steps with Scryfall oracle context.
 - The public repo shape is cleaned: large engine repos are ignored/reproducible, scripts are minimal, and dependencies are documented.
+- Published public GitHub repo: https://github.com/snbafana/mtgbench-dataroom
 
 ## Next Checks
 
