@@ -1,0 +1,70 @@
+{
+  "baseUrl": "http://localhost:8081",
+  "model": null,
+  "ok": true,
+  "requestedSteps": 1,
+  "trace": [
+    {
+      "event": "reset",
+      "observation": {
+        "activePlayerId": "71549a34-d337-4dec-bfa0-af4b25dd75d5",
+        "agentToAct": "71549a34-d337-4dec-bfa0-af4b25dd75d5",
+        "firstAction": {
+          "actionId": 0,
+          "affordable": true,
+          "description": "Pass priority",
+          "isDecisionOption": false,
+          "isManaAbility": false,
+          "kind": "PassPriority"
+        },
+        "legalActionCount": 1,
+        "phase": "BEGINNING",
+        "priorityPlayerId": "71549a34-d337-4dec-bfa0-af4b25dd75d5",
+        "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+        "stateDigest": "2f5c91e36588c245c1d7e801222e5c8ab893ce4247fd28143b76f7c9419a9d97",
+        "step": "UNTAP",
+        "terminated": false,
+        "turnNumber": 1
+      }
+    },
+    {
+      "actionId": 0,
+      "codexResponse": {
+        "actionId": 0,
+        "reason": "Only legal action during untap; pass priority.",
+        "validation": {
+          "actionId": 0,
+          "valid": true,
+          "validActionIds": [
+            0
+          ]
+        }
+      },
+      "event": "codex_step",
+      "observation": {
+        "activePlayerId": "71549a34-d337-4dec-bfa0-af4b25dd75d5",
+        "agentToAct": "79e5f343-1131-4478-a848-8def2fbeb0f9",
+        "firstAction": {
+          "actionId": 0,
+          "affordable": true,
+          "description": "Pass priority",
+          "isDecisionOption": false,
+          "isManaAbility": false,
+          "kind": "PassPriority"
+        },
+        "legalActionCount": 1,
+        "phase": "BEGINNING",
+        "priorityPlayerId": "79e5f343-1131-4478-a848-8def2fbeb0f9",
+        "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+        "stateDigest": "08410d41dbde9dd2ab21d52a078f8d750eefc5983853b8f648cf0a5e849a22c9",
+        "step": "UNTAP",
+        "terminated": false,
+        "turnNumber": 1
+      },
+      "reward": 0.0,
+      "terminated": false,
+      "truncated": false
+    }
+  ],
+  "writtenAt": "2026-05-25T03:42:57Z"
+}

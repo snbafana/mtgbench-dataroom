@@ -1,0 +1,140 @@
+{
+  "baseUrl": "http://localhost:8081",
+  "dispose": {
+    "status": 204
+  },
+  "elapsedMs": 296,
+  "envId": "3f00bee1-3e47-436c-9557-5a5ef3b8a6ff",
+  "health": {
+    "status": "ok"
+  },
+  "observations": [
+    {
+      "firstAction": {
+        "actionId": 0,
+        "affordable": true,
+        "description": "Pass priority",
+        "hasXCost": false,
+        "isDecisionOption": false,
+        "isManaAbility": false,
+        "kind": "PassPriority",
+        "maxTargets": 1,
+        "minTargets": 1,
+        "requiresDamageDistribution": false,
+        "targetEntityIds": []
+      },
+      "legalActionCount": 1,
+      "phase": "BEGINNING",
+      "stateDigest": "80ca0d9f19271b828210557f494af453980ba35e9c8df918d347b540dbd31094",
+      "step": "UNTAP",
+      "terminated": false,
+      "turnNumber": 1
+    },
+    {
+      "firstAction": {
+        "actionId": 0,
+        "affordable": true,
+        "description": "Pass priority",
+        "hasXCost": false,
+        "isDecisionOption": false,
+        "isManaAbility": false,
+        "kind": "PassPriority",
+        "maxTargets": 1,
+        "minTargets": 1,
+        "requiresDamageDistribution": false,
+        "targetEntityIds": []
+      },
+      "legalActionCount": 1,
+      "phase": "BEGINNING",
+      "stateDigest": "30b83558e42f3f7a7235e2d12bb769d448c6360e927968d0fbaa9b7eb5d371d1",
+      "step": "UNTAP",
+      "terminated": false,
+      "turnNumber": 1
+    },
+    {
+      "firstAction": {
+        "actionId": 0,
+        "affordable": true,
+        "description": "Pass priority",
+        "hasXCost": false,
+        "isDecisionOption": false,
+        "isManaAbility": false,
+        "kind": "PassPriority",
+        "maxTargets": 1,
+        "minTargets": 1,
+        "requiresDamageDistribution": false,
+        "targetEntityIds": []
+      },
+      "legalActionCount": 1,
+      "phase": "BEGINNING",
+      "stateDigest": "1d8951853e9c9ab762b068adf46d96c4826a37ac191c5f3028c74266496fb6e2",
+      "step": "UPKEEP",
+      "terminated": false,
+      "turnNumber": 1
+    },
+    {
+      "firstAction": {
+        "actionId": 0,
+        "affordable": true,
+        "description": "Pass priority",
+        "hasXCost": false,
+        "isDecisionOption": false,
+        "isManaAbility": false,
+        "kind": "PassPriority",
+        "maxTargets": 1,
+        "minTargets": 1,
+        "requiresDamageDistribution": false,
+        "targetEntityIds": []
+      },
+      "legalActionCount": 1,
+      "phase": "BEGINNING",
+      "stateDigest": "0fbc39fbd4dcf2141b6c594f5721edf1d8a1261049a5c699ac5cebf07e07e3b9",
+      "step": "UPKEEP",
+      "terminated": false,
+      "turnNumber": 1
+    },
+    {
+      "firstAction": {
+        "actionId": 0,
+        "affordable": true,
+        "description": "Pass priority",
+        "hasXCost": false,
+        "isDecisionOption": false,
+        "isManaAbility": false,
+        "kind": "PassPriority",
+        "maxTargets": 1,
+        "minTargets": 1,
+        "requiresDamageDistribution": false,
+        "targetEntityIds": []
+      },
+      "legalActionCount": 1,
+      "phase": "BEGINNING",
+      "stateDigest": "003763f53eb9e06a5575211c6eb3de78fb7c25372aaacc8ebd611eedda8fea67",
+      "step": "DRAW",
+      "terminated": false,
+      "turnNumber": 1
+    },
+    {
+      "firstAction": {
+        "actionId": 0,
+        "affordable": true,
+        "description": "Pass priority",
+        "hasXCost": false,
+        "isDecisionOption": false,
+        "isManaAbility": false,
+        "kind": "PassPriority",
+        "maxTargets": 1,
+        "minTargets": 1,
+        "requiresDamageDistribution": false,
+        "targetEntityIds": []
+      },
+      "legalActionCount": 1,
+      "phase": "BEGINNING",
+      "stateDigest": "13805b01da9d9d53bde4cd355fa7b0c7011c2cc1e98a74e14264bc73720af31c",
+      "step": "DRAW",
+      "terminated": false,
+      "turnNumber": 1
+    }
+  ],
+  "stepsRequested": 5
+}

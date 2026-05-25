@@ -1,0 +1,3776 @@
+{
+  "baseUrl": "http://localhost:8081",
+  "failed": 0,
+  "maxSteps": 64,
+  "ok": true,
+  "passed": 12,
+  "results": [
+    {
+      "details": {
+        "health": {
+          "status": "ok"
+        },
+        "schemaHash": {
+          "schemaHash": "argentum-gym-contract@v1.1-oracle-text"
+        }
+      },
+      "elapsedMs": 18,
+      "name": "health_schema",
+      "ok": true
+    },
+    {
+      "details": {
+        "envId": "aa283097-0a78-4e9c-ad5d-b8a786428ee1",
+        "observed": {
+          "activePlayerId": "d82bd559-5810-4d44-ab44-1f959017173a",
+          "agentToAct": "d82bd559-5810-4d44-ab44-1f959017173a",
+          "firstAction": {
+            "actionId": 0,
+            "affordable": true,
+            "description": "Pass priority",
+            "isDecisionOption": false,
+            "isManaAbility": false,
+            "kind": "PassPriority"
+          },
+          "legalActionCount": 1,
+          "phase": "BEGINNING",
+          "priorityPlayerId": "d82bd559-5810-4d44-ab44-1f959017173a",
+          "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+          "stateDigest": "5c418371c87267ec74b9e3423f3b6aef90e762d194bb9262ff27bb2337eb1c01",
+          "step": "UNTAP",
+          "terminated": false,
+          "turnNumber": 1
+        },
+        "opening": {
+          "activePlayerId": "d82bd559-5810-4d44-ab44-1f959017173a",
+          "agentToAct": "d82bd559-5810-4d44-ab44-1f959017173a",
+          "firstAction": {
+            "actionId": 0,
+            "affordable": true,
+            "description": "Pass priority",
+            "isDecisionOption": false,
+            "isManaAbility": false,
+            "kind": "PassPriority"
+          },
+          "legalActionCount": 1,
+          "phase": "BEGINNING",
+          "priorityPlayerId": "d82bd559-5810-4d44-ab44-1f959017173a",
+          "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+          "stateDigest": "5c418371c87267ec74b9e3423f3b6aef90e762d194bb9262ff27bb2337eb1c01",
+          "step": "UNTAP",
+          "terminated": false,
+          "turnNumber": 1
+        }
+      },
+      "elapsedMs": 5,
+      "name": "create_observe_dispose",
+      "ok": true
+    },
+    {
+      "details": {
+        "rejectedActionId": 999999,
+        "validActionIds": [
+          0
+        ]
+      },
+      "elapsedMs": 3,
+      "name": "local_validation_rejects_illegal_move",
+      "ok": true
+    },
+    {
+      "details": {
+        "opening": {
+          "activePlayerId": "1896bdd8-b569-4625-bd43-f7a504517054",
+          "agentToAct": "1896bdd8-b569-4625-bd43-f7a504517054",
+          "firstAction": {
+            "actionId": 0,
+            "affordable": true,
+            "description": "Pass priority",
+            "isDecisionOption": false,
+            "isManaAbility": false,
+            "kind": "PassPriority"
+          },
+          "legalActionCount": 1,
+          "phase": "BEGINNING",
+          "priorityPlayerId": "1896bdd8-b569-4625-bd43-f7a504517054",
+          "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+          "stateDigest": "09e6d88a32d4204bb376315d1deefd2a047dd34920561a45d46e6d1e9b752d85",
+          "step": "UNTAP",
+          "terminated": false,
+          "turnNumber": 1
+        },
+        "status": 400
+      },
+      "elapsedMs": 4,
+      "name": "server_rejects_bad_action",
+      "ok": true
+    },
+    {
+      "details": {
+        "agent": "first-legal",
+        "envId": "de326885-a95f-4b03-bb5e-f3445b6e70d7",
+        "steps": 64,
+        "terminated": false,
+        "trace": [
+          {
+            "event": "reset",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "142056176861cb252fc27cebd7ebdb929142e39941c6ce7c53334c756e9412c6",
+              "step": "UNTAP",
+              "terminated": false,
+              "turnNumber": 1
+            }
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "8f33358a9457f5a3fe04821748399eda0d618cb2e1146d879b417ea62a17d3aa",
+              "step": "UNTAP",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "b9c11363bd018cb0f2aa317bc48dd70f6750110538190c5bdeabbb5a4db6e62f",
+              "step": "UPKEEP",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "83b48bf318481a11835426d81e8347ca40e9ac755caa0cf0a29855c0fb69ce39",
+              "step": "UPKEEP",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "46e5918e3d3700d0f89564fce976ff164ce2f8fc45926380e0ab3c56988776d1",
+              "step": "DRAW",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "4db4b2829b89241e7cafa53f1d013b63605f6763b9c0fd2568eea7a127320c07",
+              "step": "DRAW",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 7,
+              "phase": "PRECOMBAT_MAIN",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "40db272712a38fc8cfc73a447d7a1410ff66065da7b862d01f227f8296cf007f",
+              "step": "PRECOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "PRECOMBAT_MAIN",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "fdd8ec2da53d3b8334ccdf8292e4e3f2a18789e643dc04943c3c03ab4dfedc3d",
+              "step": "PRECOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "COMBAT",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "dee113f964a95a3dc7a023511c9bad7ffdb026957a42e8272edd89bed60077ac",
+              "step": "BEGIN_COMBAT",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "COMBAT",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "aaa13a0af73c4980a0ed503ea482e606ad1828b1c021f617e11d72853c7c45a0",
+              "step": "BEGIN_COMBAT",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "COMBAT",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "fc8ccc7c3f7a0b19a26bffbd22b1a84deb850b5e27c0aa2b8e983aeb7319b0d3",
+              "step": "END_COMBAT",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "COMBAT",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "4823fe5572b29291486de14ce69496deff7a632e82639402bcd5b36b31cad662",
+              "step": "END_COMBAT",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 7,
+              "phase": "POSTCOMBAT_MAIN",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "5f724227fecf4face983f51bd623ac32b7250d39345e09e840a5aff3063e4d6c",
+              "step": "POSTCOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "POSTCOMBAT_MAIN",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "a501cfbee94a1bb35cf54c0ef9d55e740c9aebeeaf51dd78e9f1e302103ec554",
+              "step": "POSTCOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "ENDING",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "bb4acbe4296c14f425ded8f6e927f0511b88d21a8be444bb61980e18317c8956",
+              "step": "END",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "ENDING",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "a765d9e9c30d9c37e1607057c0afdee2a78e92ce8725dba3b48ea88950d6c546",
+              "step": "END",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "1d402760bfed9833adb4610c8a4f9437522dd9fec02579cd7db9fbb4b9e45d3c",
+              "step": "UPKEEP",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "2b29a3fd7b030d03379a8f67f19dee84ca7ee1f4a19435220b9ee7b8c4cf6eb0",
+              "step": "UPKEEP",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "2f2675889e36902a1f64b637b2bd8537b473e6bec3c686d57a9bfcfdb51e0bff",
+              "step": "DRAW",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "709ef2c950fada1829b89d9c0d7e55d701ca1b770e40fda82aa3957d6c110d4b",
+              "step": "DRAW",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 9,
+              "phase": "PRECOMBAT_MAIN",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "89ab4158e17cd7dfb5ba7384dbd4d175559e860f2096c73bbef1d4f1a5a24a7b",
+              "step": "PRECOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "PRECOMBAT_MAIN",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "6a7bf949bd62d734be79cae9256a6cafc1ac18257139e033359f63846a4a8673",
+              "step": "PRECOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "COMBAT",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "8c513faf993d04ef6308ee26a3a95605aea81b0d77876a99cb89b273ad176d26",
+              "step": "BEGIN_COMBAT",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "COMBAT",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "4df740f9dc0bd7736ad60ead2db91b338cf5147dfff629267d3d99141d4aaa32",
+              "step": "BEGIN_COMBAT",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "COMBAT",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "d281f4cf4ee2d4d8eda652b08124c14ac4fc62f20fd4d318026e15219690600c",
+              "step": "END_COMBAT",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "COMBAT",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "7e755e932bee81902a6d796b95a4e7325f5a4dd413f4295997d1027080c60db8",
+              "step": "END_COMBAT",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 9,
+              "phase": "POSTCOMBAT_MAIN",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "813c38b04d955e702c2690bf2084f73d93f1bf7c0b549b12b244db483c764741",
+              "step": "POSTCOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "POSTCOMBAT_MAIN",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "42625f624b7e42f6ee2c07d3e55eaf38279a8081eeff1f37af286f6907d3561f",
+              "step": "POSTCOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "ENDING",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "1889c6688d8c484e4b9b4b706b5f58f7341af77d48d7a9bafaad6f56f5b4e3f1",
+              "step": "END",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "ENDING",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "e1e86b34f53947d510ceaa7e2ad907efe2bf54c9b5ad5c53b06543b488f471f9",
+              "step": "END",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "7690a989-f4ed-42e0-b54b-20c42fcdd104",
+                "isDecisionOption": true,
+                "isManaAbility": false,
+                "kind": "DECISION"
+              },
+              "legalActionCount": 8,
+              "phase": "ENDING",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "fc5aee6baea20d2a968ce82ed0cccb4472cf82a1118bc1aabc40c7405c88929a",
+              "step": "CLEANUP",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "cb86ff1911176ef05f42f82541dad64c52f10eb69cec616db55a43a6d2da24b8",
+              "step": "UPKEEP",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "029f67bce407139e76a4fd2c619138eb540d24826494dcaa79974b88b2437342",
+              "step": "UPKEEP",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "e1ba11725b89b5abfbb70a2f7e6ce02c7b7fada7035a2e861233a5f939840d7c",
+              "step": "DRAW",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "ff1b34b1a447a3747aa1cd05cf5d9eb4c66fc0d837423f26b3942d9d4b4812b6",
+              "step": "DRAW",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 8,
+              "phase": "PRECOMBAT_MAIN",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "f2caeea726f9683a168cf70e659cceab6220866ad902dee25d309dd6f8244efd",
+              "step": "PRECOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "PRECOMBAT_MAIN",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "710b2b2858dd4136a810db3102c8ceff5bac63ce100da34b0854dc63e530a2f8",
+              "step": "PRECOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "COMBAT",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "8a09353c628b7d7f69efe497bdb47848dff2317c7d5d90461e19e74171ad5e2e",
+              "step": "BEGIN_COMBAT",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "COMBAT",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "4ae6f34d71daee02387e09e5d32290968f6be153961a48de23460a9ddb20a5ca",
+              "step": "BEGIN_COMBAT",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "COMBAT",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "5649c355553b382866eb7c42d7c25f558917debef31c3b5c09803e9bbb3cba5c",
+              "step": "END_COMBAT",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "COMBAT",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "ae5a6b04e220d84bad3ff4fb57e4f900432ced9151f8ec06e8d521e4293a1539",
+              "step": "END_COMBAT",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 8,
+              "phase": "POSTCOMBAT_MAIN",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "6ff70744d401b430780277dac27173439c3bf6da7f4f4086b9e2640606ddf43a",
+              "step": "POSTCOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "POSTCOMBAT_MAIN",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "1b8af7bc688bcab30316557ebcd271ed8fdabfc82e70afc1e239fac027dfc35a",
+              "step": "POSTCOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "ENDING",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "3458bd375aa2e5a8e17623c12141f6216f35c28c710ea69d1c6a2c2056d18a2a",
+              "step": "END",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "ENDING",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "7e4692068381901a7fc573f0576604d3f91627cd0476bb4f984a965dbe110093",
+              "step": "END",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "fee21a8f-eba2-493a-b132-156d72af52ad",
+                "isDecisionOption": true,
+                "isManaAbility": false,
+                "kind": "DECISION"
+              },
+              "legalActionCount": 8,
+              "phase": "ENDING",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "cf95888d026d43c002605fb73b4f5b8e9f9fc4137d9d6e822d04205ea69d80df",
+              "step": "CLEANUP",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "bd70570b5024f16ff1cf260f369b0b1aff04ea51559705f26b8551a6bce13133",
+              "step": "UPKEEP",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "d6d8fed21c9dbb699eed8cb8ad5dc3089f50b5ce3eae79a2ac174da19ecf75dd",
+              "step": "UPKEEP",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "e6a5f6f9a60f74d62632ee852a6b7d2443cf82d324a3d1f1807b247e7e4449e0",
+              "step": "DRAW",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "c75ce267ea85efad9f975aae12b985a90f617ac811c55fb7d5bb29f20a9f3786",
+              "step": "DRAW",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 9,
+              "phase": "PRECOMBAT_MAIN",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "269eaae7a8c66e60dfa375fa5ef65b31d52ca05114ac94db9acbd7ff89206e30",
+              "step": "PRECOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "PRECOMBAT_MAIN",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "d20a2739f693ccec00f75f9afa27370ad909cfb73985a743988a63f2a022bafe",
+              "step": "PRECOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "COMBAT",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "8298b938528260d8547d294312d346faf43fef6cfca0a62b5daee628f009aaf6",
+              "step": "BEGIN_COMBAT",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "COMBAT",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "c13c2329b1eaebb22d32816e428ce1f4e98bdce20c66b796d881df70dc6c65d2",
+              "step": "BEGIN_COMBAT",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "COMBAT",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "9960073b34a497002d9072037ab27e9ea0538c0f8a260a4086f79eacb7440345",
+              "step": "END_COMBAT",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "COMBAT",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "bb3c5f5867eac600df71d5080c2ae80b2d4d086f2eec380b56a24442c172cdfa",
+              "step": "END_COMBAT",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 9,
+              "phase": "POSTCOMBAT_MAIN",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "1c02487ee672731e03e981c93044d0b3ef60574b43f849bcb5f2e208c05fd2f1",
+              "step": "POSTCOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "POSTCOMBAT_MAIN",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "058775dfd5a2d3ddbe24e8e0e8b1997696cea3af0ef0f51ad84a039d3c7b6fc6",
+              "step": "POSTCOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "ENDING",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "0e34316aa4daab6d3e47666beed8cc59c647c9902cb0dce80b95a0c1485e62c8",
+              "step": "END",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "ENDING",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "16ad4177a2dd306b3abe59118c19e78cf759ffde42612b51082016273d363e84",
+              "step": "END",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "ee7fcb10-9918-4163-9cad-c27fcf360015",
+                "isDecisionOption": true,
+                "isManaAbility": false,
+                "kind": "DECISION"
+              },
+              "legalActionCount": 8,
+              "phase": "ENDING",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "5563fbfb44ee84b87350a51861d3fe20d19253736d5feb74fd5dc780d3f9e888",
+              "step": "CLEANUP",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "2f9793a0a9b1f9e81854b60dc958785e606a592ffc726acd452985133a33db72",
+              "step": "UPKEEP",
+              "terminated": false,
+              "turnNumber": 3
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "75ee722f7304b6f791f9f5e2c1d437422147a5f68cc83d5a69c6522cdcc7e546",
+              "step": "UPKEEP",
+              "terminated": false,
+              "turnNumber": 3
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "568a1a9a325f51ad92d58d7955aea153b45db86232b03d06535c0020f46aeb46",
+              "step": "DRAW",
+              "terminated": false,
+              "turnNumber": 3
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "407bf42e-311d-439b-a19e-e8ac931f1d73",
+              "agentToAct": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "7da14b46-fb2c-4432-853c-751f81fbb7b4",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "b9f28ef718c8e60c1205b04325b6c2c6f187856b9ee61cbd83c31d8291625c8f",
+              "step": "DRAW",
+              "terminated": false,
+              "turnNumber": 3
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          }
+        ]
+      },
+      "elapsedMs": 126,
+      "name": "first_legal_episode",
+      "ok": true
+    },
+    {
+      "details": {
+        "agent": "codex-heuristic",
+        "envId": "295cddd3-294f-45cb-8f2e-6ae516b1c221",
+        "steps": 64,
+        "terminated": false,
+        "trace": [
+          {
+            "event": "reset",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "b61cd85706c87dca72af4bf205f3cdc9910bec5c236ad6fec1526bf4e85e168d",
+              "step": "UNTAP",
+              "terminated": false,
+              "turnNumber": 1
+            }
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "eac0ab09cb2663dbfb4b7ceeeb6ee5512903a30c505995d57025bc3de69e119e",
+              "step": "UNTAP",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "3c7e4610829b233c5f368479f747b503676c02d9e3a0b471a0c9ffde192398e8",
+              "step": "UPKEEP",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "ee3b907e50cf0c366d4a2c72a8d50aff264ba33e10b2592495dbf4095774599a",
+              "step": "UPKEEP",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "61c93c65eef401f30975a99fb7d8cc53f60936dc0dac3be8fd9fab235c26fbcf",
+              "step": "DRAW",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "a7ed4d6c242a3c67e2f43254418d3ea48a45eaae9f19dc634728b8cbbe4e94f2",
+              "step": "DRAW",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 7,
+              "phase": "PRECOMBAT_MAIN",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "58407118f150472c4b77f2e1546530ad6b0885894c2abe85fb07a27eedfb4c17",
+              "step": "PRECOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 1,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 3,
+              "phase": "PRECOMBAT_MAIN",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "be022b82f69fb2ef34c09943b378fff1ccccf2de120b34d9483a67523d3f59eb",
+              "step": "PRECOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 1,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "PRECOMBAT_MAIN",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "8945e4d76a1c49d0fb1de53af4699ec354563e2423a299d172f83c3e7972dec5",
+              "step": "PRECOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "PRECOMBAT_MAIN",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "25d502c07a0e2303ae62c483abf44350a94767c4fc54b7522fb52c9d72729ebf",
+              "step": "PRECOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "COMBAT",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "de635bc1e3aa3e892526006830fc39a40a0a48771aee6f7866b6af5f9d968bb1",
+              "step": "BEGIN_COMBAT",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "COMBAT",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "d94def4dda635b20c9aac08ef620a49860bd401268e5efbbcd810496dc1ae34b",
+              "step": "BEGIN_COMBAT",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Declare attackers",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "DeclareAttackers"
+              },
+              "legalActionCount": 1,
+              "phase": "COMBAT",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "f42223b8435cae48d3ef0f85a9a4f1970b2c8635e3dcd16374e2aaae307f63bd",
+              "step": "DECLARE_ATTACKERS",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "COMBAT",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "f42223b8435cae48d3ef0f85a9a4f1970b2c8635e3dcd16374e2aaae307f63bd",
+              "step": "DECLARE_ATTACKERS",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "COMBAT",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "bdb60b2579a5faa2efa51d7a885bc9c97946ce25f647a9a04bf0cea4d9c6b242",
+              "step": "DECLARE_ATTACKERS",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "COMBAT",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "825d6e8c1068a9c00a50b85f10d9ab2fce6f1d05306ac50d92865b59398ea082",
+              "step": "END_COMBAT",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "COMBAT",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "dedfd23ffc36feb8acd20659833e739489990437cc1b5545b4aaff5902918d67",
+              "step": "END_COMBAT",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "POSTCOMBAT_MAIN",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "83e75fc4adf390b3924450f9ebf07fae6b043e30531c3eb1b1e32593bbcfc27f",
+              "step": "POSTCOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "POSTCOMBAT_MAIN",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "1e543cd54fd108ef710592e0c1d2f7445b19e93a7cc58b83baf7e526b61e8c68",
+              "step": "POSTCOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "ENDING",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "3828af7084679554d816abd8629dfba4d6b3ffcb4c0dcb65ca42f6957aa89866",
+              "step": "END",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "ENDING",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "d1163dbd60ef60fa1d38c4c4e78a129d5f0b651c81fce823467d0529a16f23a8",
+              "step": "END",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "17fa11566c4ff757bbe7009098cc8969cd938a3b529ef14f774bb8112053cd5f",
+              "step": "UPKEEP",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "a90f7da8e89662de56ebfa7e4176a6a4b20e4baa0d9f81e15b887119244a1c04",
+              "step": "UPKEEP",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 1,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "48b399f14113c73da8694cf8540aab828fc9c8a24fdb090c042c0d85fd426026",
+              "step": "DRAW",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "e144b3d8a877739f23cb846f8c5d8e2962a4948d76da054f27ad9af3e0f616dd",
+              "step": "DRAW",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 8,
+              "phase": "PRECOMBAT_MAIN",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "cd66b60d823ba1b50c949559a500a4f6c7dcd88da51ed73b7f29092204cbce20",
+              "step": "PRECOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 1,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 3,
+              "phase": "PRECOMBAT_MAIN",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "a8f2300305fe62257efe4a662704f1ef3c78c9e25826748cccd431c0cd6d641a",
+              "step": "PRECOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 1,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "PRECOMBAT_MAIN",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "59b87188b6733fded5e27d870905e0a3e337003eec22a013b068748e1e374e15",
+              "step": "PRECOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "PRECOMBAT_MAIN",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "7d0babfdf1ed9d946953025132874fd661c456a09d389bd38fe284ff68a33759",
+              "step": "PRECOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "COMBAT",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "09ffd89a4369693780c7331dac77c866305a5ff6ee7c9f28cae967c60d9c95ef",
+              "step": "BEGIN_COMBAT",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "COMBAT",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "fc7ab24cd1fbf0034fb549ed0f32c3c506fae7f386acf4b9263b5626c3b4323d",
+              "step": "BEGIN_COMBAT",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Declare attackers",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "DeclareAttackers"
+              },
+              "legalActionCount": 1,
+              "phase": "COMBAT",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "d67b5a7534000b7a62a97567c0acdb7466c14ca05ef4afb73e2d2f74eb25c819",
+              "step": "DECLARE_ATTACKERS",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "COMBAT",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "d67b5a7534000b7a62a97567c0acdb7466c14ca05ef4afb73e2d2f74eb25c819",
+              "step": "DECLARE_ATTACKERS",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "COMBAT",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "1304490fb5f2dc3ff33c9c190b67bcef0a1cfb8a149a126ddccdf879eeb5b7b7",
+              "step": "DECLARE_ATTACKERS",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "COMBAT",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "5eccd69d14df0a16c110afb6ae92155b4932bb20da6f47889a651361f6ac49ec",
+              "step": "END_COMBAT",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "COMBAT",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "6b24b75cf6fa01ea2953d62572e871b9ff3b0ed5ca7f5ec4a18378dd5724e9eb",
+              "step": "END_COMBAT",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "POSTCOMBAT_MAIN",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "44f0b2b4624eb78b7d40fa61eb565870f2897077ba28dd91d26ca58057236f10",
+              "step": "POSTCOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "POSTCOMBAT_MAIN",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "cf297fec3635a30e41a45831ceef7121440c3bf5a798e2f48105dfbf4a688afb",
+              "step": "POSTCOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "ENDING",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "5cd9f331fd96053869ef660128d9ba07953eacb5172de3c6e9aabbd92d80fc56",
+              "step": "END",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "ENDING",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "9c7a05604c4c508fcf5ba6e344f9c7408a95472e0d5d9de8afed5dceac8413f9",
+              "step": "END",
+              "terminated": false,
+              "turnNumber": 1
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "53dbfc1e49643b45993c1e723f7d0e6c42213ab26bb93d06a549bbf47d5fadb9",
+              "step": "UPKEEP",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 1,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "df31ca35c228f363c3e32ee43186e6de1299575e0a2f014b1ebc2cca0723eefa",
+              "step": "UPKEEP",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "bb5752eec38bfd6743ee3c7b7c4700f0835f3138ab9b565ee5a2cab7ebce3777",
+              "step": "UPKEEP",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "13278a692ee681480fd8106e364d1a7d096acdf8a861092bc22886b7ae8c106e",
+              "step": "DRAW",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "f97c0cd5f2de1ccb24fa828f81e23219a6cf5e35d07629a7c2d9bb07ea2c3e9b",
+              "step": "DRAW",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 8,
+              "phase": "PRECOMBAT_MAIN",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "7ba3fa482532618e5180e6c650532656d32f9390c14e0a9e419a10988223b78e",
+              "step": "PRECOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 1,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 3,
+              "phase": "PRECOMBAT_MAIN",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "644a1e79d2fd59656245e1ff9d0c295a6c3e4a0d3574c07c119e69a9d59ae78b",
+              "step": "PRECOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 2,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 3,
+              "phase": "PRECOMBAT_MAIN",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "59ed81fbc4118aa00d9cf53dcffa08cce976d80136d7489d24618f0e01069666",
+              "step": "PRECOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "PRECOMBAT_MAIN",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "98ddff4e598dcd041372d5c6dbfa6f20d20af8f984c4ec12edf9c992189178e9",
+              "step": "PRECOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 3,
+              "phase": "COMBAT",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "94a4b97204f493c9f73573c81ea98647f578466627d2e1a5c655a74b0faa9604",
+              "step": "BEGIN_COMBAT",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "COMBAT",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "8f4c8812c0d8924f4441c2c64396c997549e7b3488e1c30f7fc653a31781d7f5",
+              "step": "BEGIN_COMBAT",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Declare attackers",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "DeclareAttackers"
+              },
+              "legalActionCount": 1,
+              "phase": "COMBAT",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "80af16c4ca5322855d2da3b6c8ce4f2c3152346df209f745a2689657cce5906e",
+              "step": "DECLARE_ATTACKERS",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 3,
+              "phase": "COMBAT",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "80af16c4ca5322855d2da3b6c8ce4f2c3152346df209f745a2689657cce5906e",
+              "step": "DECLARE_ATTACKERS",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "COMBAT",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "04b7e424c88e2c2490ea8ddea6ede8d109cac287a3cda066b1d467543537d5a9",
+              "step": "DECLARE_ATTACKERS",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 3,
+              "phase": "COMBAT",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "0efc8c1ef9b0f18c922b7102f11ce27c60aed02df186c41c90557cf2b19c79b0",
+              "step": "END_COMBAT",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "COMBAT",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "fc4254a56e474bccf16ce4cf08b28f8d8e5d84c0469f2758b15717705c59764d",
+              "step": "END_COMBAT",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 3,
+              "phase": "POSTCOMBAT_MAIN",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "5c960909a215bc91505b9a62db473ccbd9886db34a9da7aad56c026448fb0f02",
+              "step": "POSTCOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "POSTCOMBAT_MAIN",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "6bd90d29001d25bb19d1be595057a443c484765d0347e6cf580afd5abbc81aa7",
+              "step": "POSTCOMBAT_MAIN",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 3,
+              "phase": "ENDING",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "a1ff07ac10e5d20c6c99c149c97b057cd594702a7735c4cc600dfbcdb446eb8f",
+              "step": "END",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "ENDING",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "c6a81d9a6e8010a7762c7cca09244c76e659e5812009516a5e299d7f9b4a8c05",
+              "step": "END",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "77a760fe05de1c7b6a8d60365ecd48d693f5c1ed570f86d18a260edd4f73c765",
+              "step": "UPKEEP",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 1,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "5bf0352fb874989d0de1e1b44189d0a1ca8a80db35cbd9ea87c4d1638ad6f673",
+              "step": "UPKEEP",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 3,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "15ab0e1486e2bc78b6ff7762e89dc6c2b87a73290c21d12ab05e192aa0b77fc7",
+              "step": "UPKEEP",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "agentToAct": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 2,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "6d939303c0d381fc598addc54047860fae0460ca4b0f235703d8969ccef3f536",
+              "step": "DRAW",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          },
+          {
+            "actionId": 0,
+            "event": "step",
+            "observation": {
+              "activePlayerId": "f80f6924-bb41-423c-a2cf-04560c9887e3",
+              "agentToAct": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "firstAction": {
+                "actionId": 0,
+                "affordable": true,
+                "description": "Pass priority",
+                "isDecisionOption": false,
+                "isManaAbility": false,
+                "kind": "PassPriority"
+              },
+              "legalActionCount": 3,
+              "phase": "BEGINNING",
+              "priorityPlayerId": "f321e954-6318-4683-8f9f-d0c2bbca0fb6",
+              "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+              "stateDigest": "06046ffc7cdae4fdf268ce26111470631bdd1f0ae41a50f476c79b88a9d13a26",
+              "step": "DRAW",
+              "terminated": false,
+              "turnNumber": 2
+            },
+            "reward": 0.0,
+            "terminated": false,
+            "truncated": false
+          }
+        ]
+      },
+      "elapsedMs": 130,
+      "name": "codex_heuristic_episode",
+      "ok": true
+    },
+    {
+      "details": {
+        "afterStepDigest": "e9a097c77c437c9a9ad0e1f58f3bc9e440ad263f21f901d6c09c8696dbd065ed",
+        "restoredDigest": "aed7aad145534fabeb24ee1b6f989ad44b97d6d3014608e9330204ef3b7ec355",
+        "restoredMatchesStart": true,
+        "snapshot": {
+          "slotId": 2,
+          "type": "com.wingedsheep.gym.service.SnapshotHandle.Slot"
+        },
+        "startDigest": "aed7aad145534fabeb24ee1b6f989ad44b97d6d3014608e9330204ef3b7ec355"
+      },
+      "elapsedMs": 7,
+      "name": "snapshot_restore_roundtrip",
+      "ok": true
+    },
+    {
+      "details": {
+        "forkDigests": [
+          "b008f79cfdb9252650726d5d62b02359e34d81fcec7715d35d2162919bd8f8db",
+          "b008f79cfdb9252650726d5d62b02359e34d81fcec7715d35d2162919bd8f8db"
+        ],
+        "sourceDigestAfter": "b008f79cfdb9252650726d5d62b02359e34d81fcec7715d35d2162919bd8f8db",
+        "sourceDigestBefore": "b008f79cfdb9252650726d5d62b02359e34d81fcec7715d35d2162919bd8f8db",
+        "sourceUnchanged": true,
+        "steppedForkDigest": "5154f5599696e82af271e594d47b0a6834d7954a0edcb0cdec2bf8576751ca55"
+      },
+      "elapsedMs": 9,
+      "name": "fork_two_envs",
+      "ok": true
+    },
+    {
+      "details": {
+        "envIds": [
+          "e95bb824-0fcd-46df-abf3-7e1fa3fbe3d7",
+          "5c4c23e1-12ed-4155-894a-6bcbb31e5664"
+        ],
+        "resultCount": 2
+      },
+      "elapsedMs": 6,
+      "name": "step_batch_two_envs",
+      "ok": true
+    },
+    {
+      "details": {
+        "hidden": {
+          "activePlayerId": "c8089074-b4dd-4c8a-9bb6-9d9ec04e2643",
+          "agentToAct": "c8089074-b4dd-4c8a-9bb6-9d9ec04e2643",
+          "firstAction": {
+            "actionId": 0,
+            "affordable": true,
+            "description": "Pass priority",
+            "isDecisionOption": false,
+            "isManaAbility": false,
+            "kind": "PassPriority"
+          },
+          "legalActionCount": 1,
+          "phase": "BEGINNING",
+          "priorityPlayerId": "c8089074-b4dd-4c8a-9bb6-9d9ec04e2643",
+          "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+          "stateDigest": "1ce4cf28c0f0698698f33150d5899d7dc7842fc1ae17af85e060574d77937c4c",
+          "step": "UNTAP",
+          "terminated": false,
+          "turnNumber": 1
+        },
+        "hiddenBytes": 5642,
+        "revealed": {
+          "activePlayerId": "c8089074-b4dd-4c8a-9bb6-9d9ec04e2643",
+          "agentToAct": "c8089074-b4dd-4c8a-9bb6-9d9ec04e2643",
+          "firstAction": {
+            "actionId": 0,
+            "affordable": true,
+            "description": "Pass priority",
+            "isDecisionOption": false,
+            "isManaAbility": false,
+            "kind": "PassPriority"
+          },
+          "legalActionCount": 1,
+          "phase": "BEGINNING",
+          "priorityPlayerId": "c8089074-b4dd-4c8a-9bb6-9d9ec04e2643",
+          "schemaHash": "argentum-gym-contract@v1.1-oracle-text",
+          "stateDigest": "94b4760755429f13ccd60c39f901d39ae60dcc28c4a989c7211e7033f747ce10",
+          "step": "UNTAP",
+          "terminated": false,
+          "turnNumber": 1
+        },
+        "revealedBytes": 20202
+      },
+      "elapsedMs": 5,
+      "name": "reveal_all_toggle",
+      "ok": true
+    },
+    {
+      "details": {
+        "firstAction": {
+          "actionId": 0,
+          "affordable": true,
+          "description": "Pass priority",
+          "isDecisionOption": false,
+          "isManaAbility": false,
+          "kind": "PassPriority"
+        },
+        "legalActionCount": 1,
+        "stateKeys": [
+          "activePlayerId",
+          "agentToAct",
+          "firstAction",
+          "legalActionCount",
+          "phase",
+          "priorityPlayerId",
+          "schemaHash",
+          "stateDigest",
+          "step",
+          "terminated",
+          "turnNumber"
+        ],
+        "visibleCardCount": 2
+      },
+      "elapsedMs": 3,
+      "name": "codex_agent_view_surface",
+      "ok": true
+    },
+    {
+      "details": {
+        "chosenAction": {
+          "actionId": 0,
+          "valid": true,
+          "validActionIds": [
+            0
+          ]
+        },
+        "containsLegalActions": true,
+        "containsToolSpecs": true,
+        "promptChars": 1917
+      },
+      "elapsedMs": 3,
+      "name": "codex_prompt_and_choice_validation",
+      "ok": true
+    }
+  ],
+  "writtenAt": "2026-05-25T03:38:54Z"
+}

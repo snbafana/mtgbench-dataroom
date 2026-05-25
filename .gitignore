@@ -1,0 +1,11 @@
+.venv/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+# Large local evidence checkouts are reproducible from source_ledger.csv.
+05_evidence/repos/
+
+# Local run output that should not be committed by default.
+*.log
+.DS_Store
