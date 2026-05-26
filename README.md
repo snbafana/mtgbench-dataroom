@@ -91,6 +91,7 @@ Runtime Python code is stdlib-only. `pytest` is the only dev dependency.
 ## Evidence Snapshots
 
 - `02_prototypes/results/codex_cli_episodes_20260525.md` - real Codex CLI episodes.
+- `02_prototypes/results/two_codex_cli_match_20260525T2114Z.md` - real Codex CLI vs Codex CLI bounded match evidence.
 - `02_prototypes/results/two_agent_match_20260525T2031Z.md` - two-agent Argentum match summary, including full terminal heuristic game.
 - `02_prototypes/results/two_agent_match_20260525T2030Z.json` - raw mixed-agent route smoke.
 - `02_prototypes/results/argentum_smokes_20260525T2030Z.json` - raw 13-smoke live run with two-agent match coverage.
