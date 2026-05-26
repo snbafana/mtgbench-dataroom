@@ -14,6 +14,7 @@ from mtgbench_harness.argentum import (
 )
 from mtgbench_harness.codex_surface import render_codex_prompt, validate_codex_choice
 from mtgbench_harness.gym_adapter import ArgentumGymAdapter, MoveValidationError
+from mtgbench_harness.match import run_two_agent_match
 
 
 SmokeFn = Callable[[], dict[str, Any]]
@@ -79,10 +80,13 @@ def run_smokes(client: ArgentumClient, *, max_steps: int = 12) -> dict[str, Any]
             client.dispose(env_id)
 
     def first_legal_episode() -> dict[str, Any]:
-        return _run_agent_episode(client, FirstLegalAgent(), max_steps=max_steps)
+        return run_two_agent_match(client, FirstLegalAgent(), FirstLegalAgent(), max_steps=max_steps)
 
     def codex_heuristic_episode() -> dict[str, Any]:
-        return _run_agent_episode(client, CodexHeuristicAgent(), max_steps=max_steps)
+        return run_two_agent_match(client, CodexHeuristicAgent(), CodexHeuristicAgent(), max_steps=max_steps)
+
+    def first_vs_codex_heuristic_match() -> dict[str, Any]:
+        return run_two_agent_match(client, FirstLegalAgent(), CodexHeuristicAgent(), max_steps=max_steps)
 
     def snapshot_restore_roundtrip() -> dict[str, Any]:
         env_id, opening = _create(client)
@@ -188,6 +192,7 @@ def run_smokes(client: ArgentumClient, *, max_steps: int = 12) -> dict[str, Any]
         ("server_rejects_bad_action", server_rejects_bad_action),
         ("first_legal_episode", first_legal_episode),
         ("codex_heuristic_episode", codex_heuristic_episode),
+        ("first_vs_codex_heuristic_match", first_vs_codex_heuristic_match),
         ("snapshot_restore_roundtrip", snapshot_restore_roundtrip),
         ("fork_two_envs", fork_two_envs),
         ("step_batch_two_envs", step_batch_two_envs),
@@ -204,34 +209,3 @@ def run_smokes(client: ArgentumClient, *, max_steps: int = 12) -> dict[str, Any]
         "failed": sum(1 for result in results if not result["ok"]),
         "results": results,
     }
-
-
-def _run_agent_episode(client: ArgentumClient, agent: Any, *, max_steps: int) -> dict[str, Any]:
-    adapter = ArgentumGymAdapter(client)
-    trace: list[dict[str, Any]] = []
-    try:
-        observation, info = adapter.reset()
-        trace.append({"event": "reset", "observation": summarize_observation(observation)})
-        terminated = False
-        while not terminated and len(trace) <= max_steps:
-            action_id = int(agent.choose_action(observation))
-            observation, reward, terminated, truncated, info = adapter.step(action_id)
-            trace.append(
-                {
-                    "event": "step",
-                    "actionId": action_id,
-                    "reward": reward,
-                    "terminated": terminated,
-                    "truncated": truncated,
-                    "observation": summarize_observation(observation),
-                }
-            )
-        return {
-            "agent": agent.name,
-            "envId": info["envId"],
-            "steps": len([item for item in trace if item["event"] == "step"]),
-            "terminated": terminated,
-            "trace": trace,
-        }
-    finally:
-        adapter.close()
